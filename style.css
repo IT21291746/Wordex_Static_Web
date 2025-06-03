@@ -374,6 +374,7 @@ footer {
   .phone-gallery {
     flex-direction: column;
     gap: 1.5rem;
+    align-items:center;
   }
 
   header {
@@ -396,4 +397,24 @@ footer {
   .final-presentation-div {
     padding: 2rem 1rem 4rem;
   }
+}
+
+
+@media (max-width: 525px) {
+    .presentationwordex{
+        display: none;
+    }
+}
+
+@media (max-width: 412px) {
+    .rpwordex{
+        display: none;
+    }
+}
+
+
+@media (max-width: 289px) {
+    .teamwordex{
+        display: none;
+    }
 }
